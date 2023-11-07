@@ -1,0 +1,125 @@
+
+
+#container {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    overflow: hidden;
+    padding: 0 ;
+    margin: 0;
+  }
+  
+  .image {
+    width: 70px;
+    height: 70px;
+  }
+  
+  table , td, th {
+      border: 1px solid gray;
+      border-collapse: collapse;
+  }
+  td, th {
+      padding: 3px;
+      width: 30px;
+      height: 25px;
+  }
+  th {
+      background: #f0e6cc;
+  }
+  .even {
+      background: #fbf8f0;
+  }
+  .odd {
+      background: #fefcf9;
+  }
+  table{
+    table-layout: fixed;
+    background-color: orange;
+  }
+  td{
+    width: 24px;
+    height: 24px;
+  }
+  button{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+  button:active{
+    transform: translate(2px,2px);
+    box-shadow: none;
+    background-color: white;
+  }
+  #result{
+    height: 30px;
+    width: 220px;
+    border: solid 1px ;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content:  end;
+    font-size: 30px;
+   
+  }
+  #calcCntainer{
+    font-size: 30px;
+    }
+  
+  
+    *, *::after, *::before{
+      box-sizing: border-box;
+  }
+  a{
+      color: black;
+      text-decoration: none;
+  }
+  #accordion{
+      max-width: 500px;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      background-color: orange;
+      border-radius: 5px;
+      display: inline-block;
+  
+  }
+  .menu ul{
+    display: none;
+    list-style-type: none;
+    padding: 0;
+  }
+  .menu ul.active{
+    display: block;
+  }
+  .menu > li > a {
+      display: block;
+      padding: 5px;
+      background-color: lightcyan;
+  }
+  .menu > li > ul a {
+      display: block;
+      padding: 5px;
+      background-color: lightgreen;
+  }
+  p{
+    font-size: 50px;
+    background-color: orange;
+    width: 400px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  .box{
+    display: flex;
+  }
+  body{
+    background-color: black;
+  }
+  .mlink:visited{
+    color: red;
+  }
+  .mlink{
+    color: blue;
+    text-decoration: underline;
+      }
