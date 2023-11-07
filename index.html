@@ -1,0 +1,86 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <p>ワニ演習改</p>
+
+   <!--画像表示-->
+   <div class="box">
+    <div id="container"></div>
+    <!--"アコーディオン"-->
+    <div id="accordion" class="box">
+        <ul class="menu">
+         <li>
+            <a href="">このサイトは？</a>
+            <ul>
+               <li><a href="">左下の電卓で計算をします。<br>
+            次に隣のスタートボタンを押すとその計算結果の数だけマモロウが出現します</a></li>
+            </ul>
+         </li>
+         <li>
+            <a href="">マモロウとは？</a>
+            <ul>
+                <li><a href="">安全健康推進部が考案した安全マスコットです<br>
+                安全関係の書類に使われています。</a></li>
+                <li><a href="https://toyotajp.sharepoint.com/sites/msspo_al_t-wave/SitePages/top.aspx" target="_blank" class="mlink">こちらが安全健康推進部のSPOです</a></li>
+            </ul>
+         </li>
+         <li>
+            <a href="">test</a>
+            <ul>
+              <li><a href="">test</a></li>
+            </ul>
+         </li>
+    
+        </ul>
+    </div>
+    </div>
+    <!--電卓-->
+    <div class="box">
+    <div id="calcContainer">
+        <div id= "result"></div>
+
+    <table>
+        <tbody>
+            <tr>
+                <td><button>+</button></td>
+                <td><button>-</button></td>
+                <td><button>*</button></td>
+                <td><button>/</button></td>
+            </tr>
+            <tr>
+                <td><button>1</button></td>
+                <td><button>2</button></td>
+                <td><button>3</button></td>
+                <td><button>C</button></td>
+            </tr>
+            <tr>
+                <td><button>4</button></td>
+                <td><button>5</button></td>
+                <td><button>6</button></td>
+                <td rowspan="2"><button>=</button></td>
+            </tr>
+            <tr>
+                <td><button>7</button></td>
+                <td><button>8</button></td>
+                <td><button>9</button></td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+    </div>
+    <button id="startButton">Start</button>
+</div>
+    <script src="calc.js">  </script>
+    <script src="bird.js">  </script>
+    <script src="accordion.js">  </script>
+</body>
+</html>
